@@ -1,6 +1,10 @@
 @font-face {
-  font-family: shabnam;
-  src: url(../fonts/Shabnam.ttf);
+  font-family: 'Shabnam';
+  src: url('../Font/Vazir matn/Vazirmatn-Black.woff2') format('woff2'),
+       url('../Font/Vazir matn/Vazirmatn-Black.woff') format('woff'),
+       url('../Font/Vazir matn/Vazirmatn-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 :root {
@@ -651,6 +655,10 @@ footer {
   }
 }
 @font-face {
-  font-family: paeez;
-  src: url(../Font/Paeez.ttf);
+  font-family: 'paeez';
+  src: url('../Font/Paeez/PaeezRegular.woff2') format('woff2'),
+       url('../Font/Paeez/PaeezRegular.woff') format('woff'),
+       url('../Font/Paeez/Paeez.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
