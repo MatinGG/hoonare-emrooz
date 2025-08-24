@@ -1,3 +1,24 @@
+.logo-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px; 
+  background: --bg; 
+  border: 1px rgb(133, 128, 128) solid;
+  overflow: hidden;
+}
+
+.logo-box img {
+  max-width: 70%; 
+  height: auto;
+  object-fit: contain;
+}
+
+
+
+
 @font-face {
   font-family: 'vazirmatn';
   src: url('../Font/Vazir matn/Vazirmatn-Black.woff2') format('woff2'),
@@ -6,7 +27,10 @@
   font-weight: normal;
   font-style: normal;
 }
-
+.headtext{
+  text-decoration: none;
+  color: white;
+}
 :root {
   --bg: #0b0202;          /* dark indigo */
   --bg-soft: #48dbfb;      /* softer panel */
@@ -120,6 +144,7 @@ header {
 }
 
 .logo {
+  text-decoration: none;
   display: flex;
   align-items: center;
   gap: .8rem;
