@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Shabnam';
+  font-family: 'vazirmatn';
   src: url('../Font/Vazir matn/Vazirmatn-Black.woff2') format('woff2'),
        url('../Font/Vazir matn/Vazirmatn-Black.woff2') format('woff'),
        url('../Font/Vazir matn/Vazirmatn-Black.woff2') format('truetype');
@@ -32,7 +32,7 @@ html, body {
 
 body {
   margin: 0;
-  font-family: shabnam, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  font-family: vazirmatn, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   background: radial-gradient(1200px 700px at 80% -10%, #1b2440 0%, var(--bg) 55%) fixed;
   color: var(--txt);
   line-height: 1.8;
@@ -68,7 +68,10 @@ body {
   text-decoration: none;
   transition: transform 0.4s ease, background-color 0.4s ease, color 0.4s ease;
 }
-
+.khedmat{
+  border: 1px solid white;
+  font-family: vazir;
+}
 .btn:hover {
   transform: scale(1.1);
   background-color: rgb(229, 226, 226);
@@ -247,7 +250,7 @@ nav a:focus {
   color: transparent;
 }
 .details{
-  font-family: shabnam;
+  font-family: vazirmatn;
   resize: none;
   display: block;
 }
@@ -256,10 +259,10 @@ nav a:focus {
   padding-right: 15px;
   display: block;
   height: 200px;
-  font-family: shabnam;
+  font-family: vazirmatn;
 }
 .service-options{
-  font-family: shabnam;
+  font-family: vazirmatn;
 }
 .subtitle {
   font-family: paeez;
@@ -601,7 +604,7 @@ footer {
 }
 .btn2-label{
   text-align: center;
-  font-family: shabnam;
+  font-family: vazirmatn;
   color: #000;
   align-items: center;
 }
